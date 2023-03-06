@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">registration form</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="mob_no">Mobile No</string>
+    <string name="amn">Alternate Mobile No</string>
+    <string name="eid">Email Id</string>
+
+</resources>

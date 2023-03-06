@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:minWidth="18dp"
+        android:maxHeight="46dp"
+        />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/mob_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No"
+        android:textSize="18dp"
+    />
+    <EditText
+        android:id="@+id/amn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alternate Mobile No"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Id"
+        android:textSize="18dp"
+        />
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:cornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
